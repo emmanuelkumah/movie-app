@@ -1,17 +1,10 @@
 import "./App.css";
-<<<<<<< HEAD
-=======
-import NavBar from "./Component/NavBar/NavBar";
->>>>>>> navbar
+import Navbar from "./Component/Navbar";
 
 function App() {
   return (
-    <div className="App">
-<<<<<<< HEAD
-      <h1>Movie App </h1>
-=======
-      <NavBar />
->>>>>>> navbar
+    <div>
+      <Navbar />
     </div>
   );
 }
