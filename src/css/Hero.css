@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+  background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 0.9) 0%,
+      rgba(0, 0, 0, 0.8) 35%
+    ),
+    url("/public/images/hero.jpg");
+}
+
+section {
+  margin: 20px;
+}
+section h2 {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  color: #fff;
+}
+section h4 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.hero__btn {
+  width: 200px;
+  background: #fee440;
+  font-size: 25px;
+  color: #04030f;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+.hero__btn:hover,
+:focus {
+  background: #93b7be;
+}
